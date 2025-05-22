@@ -24,3 +24,26 @@ dist-ssr
 *.sw?
 bin/tailwindcss
 bin/tailwindcss
+
+
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor folders
+.vscode/
+
+# Firebase
+firebase-debug.log
+.firebase/
+
+# OS files
+.DS_Store
+Thumbs.db
